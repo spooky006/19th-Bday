@@ -107,17 +107,7 @@ Happy 19th Birthday, my love. My dear Pookiee.
 You will always have a special place inside my heart — a place no one else will ever touch.
 
 — Always yours 💗`;
-    const gallery = document.getElementById('gallery');
-    galleryImages.forEach(src => {
-      const d = document.createElement('div');
-      d.className = 'thumb';
-      const img = document.createElement('img');
-      img.src = src;
-      img.alt = 'memory';
-      d.appendChild(img);
-      gallery.appendChild(d);
-      d.addEventListener('click', () => openImage(src));
-    });
+    const galleryImages = ['images/1.jpg','images/2.jpg','images/3.jpg','images/4.jpg'];
     const timelineEvents = [{time:'First met', desc:'That day when our eyes met for the first time.'},{time:'First laugh', desc:'When you made me laugh like crazy without my knowings.'},{time:'Our favourite day', desc:'When you entered to my heart without anyones permission.'}];
     const secretNickname = 'pookiee';
     const secretMessage = 'I love you endlessly, my Pookiee Gurl. Happy 19th Birthday Dear! 😚🫂💗';
